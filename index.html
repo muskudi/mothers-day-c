@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mother's Day Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="card" class="front-page">
+    <!-- Page 1 -->
+    <div class="card-content">
+      <h1>Happy Mother’s Day!</h1>
+      <button onclick="flipCard()">Open Card</button>
+    </div>
+  </div>
+
+  <div id="back" class="back-page hidden">
+    <!-- Page 2 -->
+    <div class="card-content">
+      <h1 class="highlight">Happy Mother’s Day!</h1>
+      <p>
+        You are my first teacher, my strength, and the one I turn to for everything.<br><br>
+        Thank you for always being there.<br><br>
+        <em>"Your love is my greatest gift, and I’ll be forever grateful."</em>
+      </p>
+      <div class="cake-img">🎂</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
